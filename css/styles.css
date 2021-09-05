@@ -1,0 +1,98 @@
+*{ box-sizing:border-box;
+   margin:0;
+   padding:0;         
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial, sans-serif;   
+}
+
+h1{
+  text-align: center;	
+   font-size: 1.2em;
+      margin: 1.25vw;	 
+}
+
+.divBox {
+  	     float: left;   
+  padding-left: 3vw;	 
+padding-bottom: 2vh;    
+	    border: 2px solid black; 
+        height: 40vh;
+         width: 47%;	
+	    margin: 0.5vw;			
+    overflow-y: scroll;	
+background-color: #FEF5E7;
+}
+
+p{  
+    text-align: center;
+	    margin: 2vw;	    
+}
+
+#nml{
+  float: left;	
+ margin: 3px;
+  width: 96%; 
+}
+
+#nmeLst{ 
+background-color: #191970;
+       color: #FEF5E7 ; 	  
+ font-weight: 500; 
+  text-align: left;	 
+ line-height: 1.5;
+      margin: 0px 5px;;
+}
+	  
+#lblTxt{
+  font-weight: bold; 
+    font-size: 14px; 
+	    color: red;
+   text-align: left;
+	  padding: 2px;
+       margin: 0px 5px;
+}	
+ 
+#rvw{
+     float: left;	
+	 color: red;
+	 width: 90%;
+	margin: 3vw;
+text-align: center;
+    border: 2px dashed red;	
+}	
+
+	
+ul {
+ list-style: none inside;
+    columns: 2;
+}	 
+
+li {
+      display: block;
+   text-align: left;
+      padding: 0.25vw;
+     	color: #191970 ;
+margin-bottom: 1.5vh;	
+}
+	 			 
+/*** Media Query ******/	
+@media(max-width: 992px) {	
+
+*{  font-weight: 600; }
+
+.divBox {  width: 94%;
+          height: 40vh;}
+ 
+ul { columns: 3; }	 
+
+#nml{  
+ margin: 1px;
+  width: 95%; 
+}
+
+h3 {font-size: 0.5em; }	
+li {padding: 0.05vw;}
+
+} /* @media 992 */
+
